@@ -1,0 +1,22 @@
+.wrapper{
+	margin:5% auto;
+
+}
+.tbl{
+	border: 1px solid black;
+	margin: 0% auto;
+}
+tr, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+th{
+	 background-color: #4CAF50;
+	width: 4%;
+}
+tr:hover {
+	background-color: #c9c7c9;
+}
+tr:nth-child(even){
+	background-color: #f5f5f5;
+}
